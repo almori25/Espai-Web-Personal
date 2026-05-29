@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacte - FCB Collector</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <header>
+        <h1>Contacta amb Atenció al Soci</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Inici</a>
+        <a href="botiga.html">Productes</a>
+        <a href="contacte.html">Contacte</a>
+    </nav>
+
+    <div class="container">
+        <div class="card">
+            <h2>Envia la teva consulta</h2>
+            <form action="#">
+                <label for="nom">Nom complet:</label>
+                <input type="text" id="nom" name="nom" required placeholder="El teu nom...">
+
+                <label for="email">Correu electrònic:</label>
+                <input type="email" id="email" name="email" required placeholder="exemple@correu.com">
+
+                <label for="producte">Producte d'interès:</label>
+                <select id="producte">
+                    <option value="2009">Edició 2009</option>
+                    <option value="2011">Edició 2011</option>
+                    <option value="2015">Edició 2015</option>
+                </select>
+
+                <label for="missatge">Missatge:</label>
+                <textarea id="missatge" rows="4"></textarea>
+
+                <button type="submit">Enviar Sol·licitud</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#">Avís Legal</a> | <a href="#">Enviament</a>
+        </div>
+        <p>© 2026 FCB Collector</p>
+    </footer>
+</body>
+</html>
